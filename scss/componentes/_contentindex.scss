@@ -1,0 +1,17 @@
+main {
+    .card-description {
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid black;
+        width: 70%;
+        position: relative;
+        z-index: 2;
+    }
+    .card-description:hover{
+        zoom: 20%;
+    }
+    .galery {
+        position: relative;
+        z-index: 2;        
+    }
+}

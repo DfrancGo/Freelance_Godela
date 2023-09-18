@@ -1,0 +1,28 @@
+@import './componentes/barranav';
+@import './componentes/contentindex';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    body {
+        font-size: 1.6rem;
+        background-repeat: no-repeat;
+        .demo-respon {
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: auto;
+                opacity: 0.5;
+                background-attachment: fixed;
+            }
+        }   
+    } 
+}   
+    

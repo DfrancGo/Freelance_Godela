@@ -1,0 +1,92 @@
+body header .nav-main {
+  padding: 0;
+}
+body header .nav-main .contenedor-big {
+  background-color: #1B222D;
+  color: #4DAC77;
+  font-family: "Poppins", sans-serif;
+}
+body header .nav-main .contenedor-big .titulo-menu {
+  color: white;
+  font-size: 3rem;
+  margin-left: 15px;
+}
+body header .nav-main .contenedor-big .titulo-menu:hover {
+  color: #4DAC77;
+}
+body header .nav-main .contenedor-big .boton-menu {
+  background-color: #1B222D;
+}
+body header .nav-main .contenedor-big .nav-link {
+  color: white;
+  text-align: center;
+}
+body header .nav-main .contenedor-big .nav-link:hover {
+  color: #4DAC77;
+}
+
+@media (min-width: 992px) {
+  body {
+    max-width: 1550px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  body header .nav-main .contenedor-big {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body header .nav-main .contenedor-big .titulo-menu {
+    font-size: 5rem;
+    margin-left: 10px;
+  }
+  body header .nav-main .contenedor-big #navbarNav {
+    justify-content: center;
+  }
+  body header .nav-main .contenedor-big .lista {
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  body header .nav-main .contenedor-big .lista .nav-item {
+    margin-left: 30px;
+  }
+}
+main .card-description {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  width: 70%;
+  position: relative;
+  z-index: 2;
+}
+main .card-description:hover {
+  zoom: 20%;
+}
+main .galery {
+  position: relative;
+  z-index: 2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+html body {
+  font-size: 1.6rem;
+  background-repeat: no-repeat;
+}
+html body .demo-respon img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style.css.map */

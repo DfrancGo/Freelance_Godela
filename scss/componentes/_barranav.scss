@@ -1,0 +1,59 @@
+body {
+    header {
+        .nav-main {
+            padding: 0;
+            .contenedor-big {
+                background-color: #1B222D;
+                color:#4DAC77;
+                font-family: 'Poppins', sans-serif;
+                .titulo-menu {
+                    color:white;
+                    font-size: 3rem;
+                    margin-left: 15px;
+                }
+                .titulo-menu:hover {
+                    color: #4DAC77;
+                }
+                .boton-menu {
+                    background-color: #1B222D;
+                }
+                .nav-link {
+                    color: white;
+                    text-align: center;
+                }
+                .nav-link:hover {
+                    color: #4DAC77;
+                }
+            }
+        }
+    }
+}
+@media (min-width:992px) {
+    body {
+        max-width: 1550px;
+        margin-top: 40px;
+        text-align: center;
+        header {
+            .nav-main {
+                .contenedor-big {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    .titulo-menu {
+                        font-size: 5rem;
+                        margin-left: 10px;
+                    }
+                    #navbarNav {    
+                    justify-content: center;
+                    }
+                    .lista {
+                        margin-right: 10px;
+                        font-size: 2rem;
+                        .nav-item {
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }     
+}    
